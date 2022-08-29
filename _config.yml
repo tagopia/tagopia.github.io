@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hydra Template
+title: Sams Utopia
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Product marketing my utopia
 author:
   name:
   email:
