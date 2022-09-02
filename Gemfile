@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.2.0'
-
+gem 'webrick'
 group :jekyll_plugins do
   gem 'jekyll-archives', '~> 2.2.1'
   gem 'jekyll-feed', '~> 0.15.1'
