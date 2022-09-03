@@ -1,71 +1,64 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: Find the perfect accomadation for you and your family
+
 pricing_table:
-  - name: Basic
+  - name: basic
     color: "#8e8e8e"
     features:
-      - text: $25 per month
+      - text: $250 per night
         highlight: true
-      - text: Up to 5 users
+      - text: 5 beds
         highlight: false
-      - text: Basic lead scoring
+      - text: 2 bathrooms
         highlight: false
-      - text: CRM
+      - text: 1 garage
         highlight: false
-      - text: Basic reporting
+      - text: 2 hr access to theme park
         highlight: false
-      - text: Sales map
+      - text:  3hr acess to pool
         highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
+    
+  - name:   Value pack
     color: "#4a4a4a"
     features:
-      - text: $99 per month
+      - text: $500 per night
         highlight: true
-      - text: Everything in Basic
+      - text: up to 8 beds
         highlight: false
-      - text: Up to 25 users
+      - text: up to 4 bathrooms
         highlight: false
-      - text: Advanced lead scoring
+      - text: 2 garages
         highlight: false
-      - text: Pipeline management
+      - text: 6 hr access to theme park
         highlight: false
-      - text: Advanced reporting
+      - text: 8 hr access to pool
         highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
+    
+  - name: super pack
     color: "#000000"
     features:
-      - text: $299 per month
+      - text: $1000 per night
         highlight: true
-      - text: Everything in Basic and Pro
+      - text: up to 10 beds
         highlight: false
-      - text: Up to 100 users
+      - text: Up to5 bathrooms
         highlight: false
-      - text: Campaign builder
+      - text: 4 garages
         highlight: false
-      - text: Machine learning
+      - text: 24hr access to everything
         highlight: false
-      - text: Calendar
+      - text: water front views
         highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+   
 faq:
   - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: cash and card only.
+  - question: Is there a 100% money back guarantee?
+    answer: Yes, though only for the first 3 days and certain problems.
+  - question: Do you offer a child care service?
+    answer: Yes, send us a message and we'll have a place reserved for your child though there are only limited spots
+  - 
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
